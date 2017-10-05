@@ -1,6 +1,9 @@
 
 # -*- coding: utf-8 -*-
 
+# Python version == 2.7.13
+# igraph version == 0.7.1
+
 import matplotlib.pyplot as plt
 import numpy as np
 
