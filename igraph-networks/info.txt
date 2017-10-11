@@ -1,0 +1,16 @@
+BA.txt --> Barabási-Albert Network
+
+N = 10,000
+m = 5
+Undirected
+
+ER.txt --> Erdös-Rényi Network
+
+N = 10,000
+p = 0.20
+Undirected
+No loops¨
+
+WS.txt --> Watts-Strogatz Network
+
+N = 10,000
