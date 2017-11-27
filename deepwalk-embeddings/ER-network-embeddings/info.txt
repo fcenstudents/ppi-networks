@@ -1,6 +1,0 @@
-
-Archivos .txt e imágenes .eps de los embeddings generados por deepwalk para la red de Erdös-Rényi.
-
-Los nombres de archivos especifican los valores de los parámetros utilizados en el algoritmo de deepwalk de la siguiente manera:
-
-nombre_dimensión_númerodecaminos_longituddecaminos_tamañodeventana_mincount.eps o .txt
