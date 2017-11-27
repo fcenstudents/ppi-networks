@@ -1,0 +1,12 @@
+Name = inter_H-Y-network
+Type = undirected
+Is simple? (no multiple edges and loops) = False. Then, simplified
+Nodes = 1052
+Edges = 2768
+Average Degree = 5.26235741445
+Diameter = 14
+Average Path Length = 4.80395013911
+Clustering Coefficient = 0.0
+Density = 0.00250350019717
+Modularity = 0.56823146812
+Communities = Clustering with 1052 elements and 90 clusters using community_leading_eigenvector (igraph)

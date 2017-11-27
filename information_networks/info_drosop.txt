@@ -1,0 +1,12 @@
+Name = drosop-network
+Type = undirected
+Is simple? (no multiple edges and loops) = False. Then, simplified
+Nodes = 10504
+Edges = 43688
+Average Degree = 8.31835491241
+Diameter = 15
+Average Path Length = 4.27537691969
+Clustering Coefficient = 0.0142408056705
+Density = 0.000395998996116
+Modularity = 0.271889170604
+Communities = Clustering with 10504 elements and 932 clusters using community_infomap (igraph)

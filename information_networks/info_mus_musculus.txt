@@ -1,0 +1,12 @@
+Name = mus_musculus-network
+Type = undirected
+Is simple? (no multiple edges and loops) = False. Then, simplified
+Nodes = 11958
+Edges = 35489
+Average Degree = 5.9356079612
+Diameter = 15
+Average Path Length = 5.55636096723
+Clustering Coefficient = 0.00904842369386
+Density = 0.000248206404667
+Modularity = 0.307270908073
+Communities = Clustering with 11958 elements and 129 clusters using community_leading_eigenvector (igraph)

@@ -1,0 +1,12 @@
+Name = coli-network
+Type = undirected
+Is simple? (no multiple edges and loops) = False. Then, simplified
+Nodes = 4184
+Edges = 24632
+Average Degree = 11.7743785851
+Diameter = 13
+Average Path Length = 3.62322235878
+Clustering Coefficient = 0.0681558059516
+Density = 0.00140740838932
+Modularity = 0.302185640145
+Communities = Clustering with 4184 elements and 222 clusters using community_leading_eigenvector (igraph)

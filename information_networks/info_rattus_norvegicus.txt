@@ -1,0 +1,12 @@
+Name = rattus_norvegicus-network
+Type = undirected
+Is simple? (no multiple edges and loops) = False. Then, simplified
+Nodes = 3509
+Edges = 5225
+Average Degree = 2.97805642633
+Diameter = 17
+Average Path Length = 5.3884843869
+Clustering Coefficient = 0.00427769256
+Density = 0.000424466423365
+Modularity = 0.625346764039
+Communities = Clustering with 3509 elements and 155 clusters using community_leading_eigenvector (igraph)
