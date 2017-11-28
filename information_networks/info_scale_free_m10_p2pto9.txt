@@ -1,0 +1,12 @@
+Name = scale_free_m10_p2pto9-network
+Type = undirected
+Is simple? (no multiple edges and loops) = True
+Nodes = 2000
+Edges = 19945
+Average Degree = 19.945
+Diameter = 1
+Average Path Length = 1.0
+Clustering Coefficient = 0.0134105633424
+Density = 0.00498874437219
+Modularity = 0.0
+Communities = Clustering with 2000 elements and 1 clusters using community_leading_eigenvector (igraph)
