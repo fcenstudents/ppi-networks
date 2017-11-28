@@ -1,0 +1,12 @@
+Name = random_n3000_p0pto1-network
+Type = undirected
+Is simple? (no multiple edges and loops) = True
+Nodes = 3000
+Edges = 899747
+Average Degree = 599.831333333
+Diameter = 2
+Average Path Length = 1.89999477604
+Clustering Coefficient = 0.189995138679
+Density = 0.100005223964
+Modularity = 0.0244093557879
+Communities = Clustering with 3000 elements and 2 clusters using community_leading_eigenvector (igraph)
