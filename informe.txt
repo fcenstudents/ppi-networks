@@ -46,3 +46,15 @@ la carpeta visualizations. De esta manera, se puede observa la distribución de 
 desviaciones estándar y el cociente media/desviación estándar al variar los valores de los parámetros.
 
 ------
+
+IDEA 2.
+
+Se quiere ver relación entre los shortest path entre los nodos y la distancia euclideana de los mismos
+en los embeddings.
+
+Para ello se realizó lo siguiente:
+
++ Con shortest-path-nodes.py se calculó los shortest paths entre los nodos del grafo. Se
+generó el archivo s-path-nodes.txt con una lista de nodei, nodej, path-lenght.
+
+------
