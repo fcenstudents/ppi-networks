@@ -1,0 +1,35 @@
+
+------
+Se generó una red aleatoria según el modelo de Erdos-Rényi mediante el
+archivo create-erdosrenyi-network.py. Se usó una implementación de 
+aquel modelo de NetworkX con valores de parámetros n = 30 (número de nodos), p = 0.20 
+(probabilidad de que un nodo se conecte al nodo i ya existente) y directed = False.
+Esto dio como resultado una red de 30 nodos, no direccionada y simple. Finalmente, se guardó
+la lista de adyacencia correspondiente en el archivo er-n30-p02.txt dentro de la carpeta denominada data.
+------
+
+Se generaron 30 embeddings usando deepwalk variando el número de caminos (1, 5, 10, 25, 50 y 100) y la longitud de
+los mismos (5, 10, 25, 50 y 100). Se fijó el tamaño de la vantana (window-size) en 3 y la
+dimensión del embedding (representation-size) en 2.
+
+Ej. de uso de deepwalk:
+
+deepwalk --format adjlist --input data/er-n30-p02.txt --max-memory-data-size 0 --number-walks 1 
+-- representation-size 2 --walk-length 5 --window-size 3 --workers 4 
+--output deepwalk-embeddings/w3-x1-y5-er-n30-p02.txt
+
+Los embeddings se guardaban en achivos .txt dentro de la carpeta denominada deepwalk-embeddings.
+
+------
+
+Se realizó un preprocesamiento de los embeddings obtenidos para una adecuada comparación entre sí.
+Se llevó a cabo una normalización, ejecutando el archivo normalize-embedding.py, que consistió en
+restar por la media y dividir por la desviación estándar en cada dimensión. Los nuevos embeddings
+se guardaron en la carpeta embeddings-normalized.
+
+------
+
+A partir de los embeddings normalizados se generó un archivo .pdf mediante figura.py con una única figura que
+contiene como subplots a los embeddings.
+
+------
