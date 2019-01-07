@@ -65,3 +65,11 @@ para cada combinación de parámetros.
 shortest-path vs. distance-embeddings en la carpeta visualizations.
 
 ------
+
+IDEA 3.
+
+Con idea-2.py se generó un heatmap que muestra las correlaciones entre las distancias en el grafo y en los 
+embeddings según el número y longitud de los caminos. La figura se guardó en la carpeta visualizations
+con el nombre idea-3.pdf.
+
+------
