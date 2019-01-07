@@ -5,7 +5,7 @@ python create-erdosrenyi-network.py numnodes probability filename
 python normalize-embedding.py filename
 
 #
-python visualize-embedding.py filename
+python visualize-1-embedding.py filename
 
 #
 deepwalk --format adjlist --input data/er-n30-p02.txt --max-memory-data-size 0 --number-walks 1 - representation-size 2 --walk-length 5 --window-size 3 --workers 4 --output deepwalk-embeddings/w5-x1-y10-er-n30-p02.txt
