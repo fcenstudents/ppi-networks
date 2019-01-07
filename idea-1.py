@@ -49,12 +49,12 @@ fig = plt.figure()
 for i, k in enumerate(X):
     x = xm[i]
     y = ym[i]
-    k = str(int(X[i])) + ' ' + str(int(Y[i]))
+    k = '(' + str(int(X[i])) + ' ' + str(int(Y[i])) + ')'
     plt.scatter(x, y, marker='o', color='red')
-    plt.text(x, y, k, fontsize=8)
+    plt.text(x, y, k, fontsize=7)
     plt.title("x-y mean según (# walks, walk-lenght)")
 
-plt.savefig(str(cwd) + '-mean', format='pdf')
+plt.savefig(str(cwd) + '-mean.pdf', format='pdf')
 
 # scatterplot for the std in x and y 
 
@@ -63,12 +63,12 @@ fig = plt.figure()
 for i, k in enumerate(X):
     x = xs[i]
     y = ys[i]
-    k = str(int(X[i])) + ' ' + str(int(Y[i]))
+    k = '(' + str(int(X[i])) + ' ' + str(int(Y[i])) + ')'
     plt.scatter(x, y, marker='o', color='red')
-    plt.text(x, y, k, fontsize=8)
+    plt.text(x, y, k, fontsize=7)
     plt.title("x-y std según (# walks, walk-lenght)")
 
-plt.savefig(str(cwd) + '-std', format='pdf')
+plt.savefig(str(cwd) + '-std.pdf', format='pdf')
 
 
 # scatterplot for the mean/std in x and y 
@@ -78,10 +78,10 @@ fig = plt.figure()
 for i, k in enumerate(X):
     x = float(xm[i])/float(xs[i])
     y = float(ym[i])/float(ym[i])
-    k = str(int(X[i])) + ' ' + str(int(Y[i]))
+    k = '(' + str(int(X[i])) + ' ' + str(int(Y[i])) + ')'
     plt.scatter(x, y, marker='o', color='blue')
-    plt.text(x, y, k, fontsize=8)
+    plt.text(x, y, k, fontsize=7)
     plt.title("x-y mean/std según (# walks, walk-lenght)")
 
-plt.savefig(str(cwd) + '-mean-std', format='pdf')
+plt.savefig(str(cwd) + '-mean-std.pdf', format='pdf')
 
