@@ -57,4 +57,11 @@ Para ello se realizó lo siguiente:
 + Con shortest-path-nodes.py se calculó los shortest paths entre los nodos del grafo. Se
 generó el archivo s-path-nodes.txt con una lista de nodei, nodej, path-lenght.
 
++ Con distance-embeddings.py se calculó la distancia euclideana entre los nodos en los embeddings
+normalizados. Se generaron archivos dist-embedding-nodes.txt con una lista de nodei, nodej y distance
+para cada combinación de parámetros.
+
++ Con idea-2.py se generó un archivo .pdf con una única figura con los scatterplots de
+shortest-path vs. distance-embeddings en la carpeta visualizations.
+
 ------
