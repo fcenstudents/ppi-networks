@@ -29,7 +29,8 @@ se guardaron en la carpeta embeddings-normalized.
 
 ------
 
-A partir de los embeddings normalizados se generó un archivo .pdf mediante figura.py con una única figura que
-contiene como subplots a los embeddings.
+A partir de los embeddings normalizados se generó el archivo fig-embeddings.pdf mediante figura.py con una única figura que
+contiene como subplots a los embeddings. Se puede apreciar la disposición de los nodos a medida que se varían
+el número de caminos y su longitud.
 
 ------
