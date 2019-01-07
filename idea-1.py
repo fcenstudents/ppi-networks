@@ -52,7 +52,7 @@ for i, k in enumerate(X):
     k = str(int(X[i])) + ' ' + str(int(Y[i]))
     plt.scatter(x, y, marker='o', color='red')
     plt.text(x, y, k, fontsize=8)
-    plt.title("x-y mean según (# walks, walk-lenght))
+    plt.title("x-y mean según (# walks, walk-lenght)")
 
 plt.savefig(str(cwd) + '-mean', format='pdf')
 
@@ -66,7 +66,7 @@ for i, k in enumerate(X):
     k = str(int(X[i])) + ' ' + str(int(Y[i]))
     plt.scatter(x, y, marker='o', color='red')
     plt.text(x, y, k, fontsize=8)
-    plt.title("x-y std según (# walks, walk-lenght))
+    plt.title("x-y std según (# walks, walk-lenght)")
 
 plt.savefig(str(cwd) + '-std', format='pdf')
 
@@ -81,7 +81,7 @@ for i, k in enumerate(X):
     k = str(int(X[i])) + ' ' + str(int(Y[i]))
     plt.scatter(x, y, marker='o', color='blue')
     plt.text(x, y, k, fontsize=8)
-    plt.title("x-y mean/std según (# walks, walk-lenght))
+    plt.title("x-y mean/std según (# walks, walk-lenght)")
 
 plt.savefig(str(cwd) + '-mean-std', format='pdf')
 
