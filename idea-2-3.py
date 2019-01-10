@@ -40,7 +40,6 @@ ni0, nj0, d0 = np.loadtxt(fname=fname1, comments='#', delimiter=' ', unpack=True
 
 data = np.ndarray(shape=(len(y), len(x)), dtype=float, order='F')
 
-
 for q in range(len(x)):
 	for r in range(len(y)):
 		fname2 = cwd + '/distances-embeddings/dist-w3-x' + str(x[q]) + '-y' + str(y[r]) + '.txt'
@@ -49,7 +48,7 @@ for q in range(len(x)):
 			label = '(' + str(ni[i]) + ',' + str(nj[i]) + ')'
 			diste = float(dist)
 			distsp = float(d0[i])
-			axs[r, q].scatter(diste, distsp, marker='o', color='red', s=4)
+			axs[r, q].scatter(diste, distsp, marker='o', color='red', s=4, alpha=0.3)
 			#axs[q, r].text(diste, distsp, label, fontsize=5)
 			if r == 0:
 				axs[r, q].set_title('# walks ' + str(x[q]) + '\neuclidean-dist')
@@ -67,7 +66,7 @@ plt.savefig(name, format='pdf')
 # generamos un heatmap de las correlaciones entre las distancias para la idea 3
 fig = plt.figure() 
 
-ax = sns.heatmap(data, vmin=-1, vmax=1, xticklabels=x, yticklabels=y)
+ax = sns.heatmap(data, vmin=-1.0, vmax=1.0, xticklabels=x, yticklabels=y, annot=True, cmap=sns.color_palette("RdBu_r", 21))
 plt.title('correlation shortest-path vs euclidean distance')
 plt.xlabel('# walks')
 plt.ylabel('walk-lenght')
@@ -76,5 +75,3 @@ name = cwd + '/visualizations/idea-3.pdf'
 figure = ax.get_figure()   
  
 figure.savefig(name)
-
-
