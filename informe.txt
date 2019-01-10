@@ -12,7 +12,7 @@ Se generaron 30 embeddings usando deepwalk variando el número de caminos (1, 5,
 los mismos (5, 10, 25, 50 y 100). Se fijó el tamaño de la vantana (window-size) en 3 y la
 dimensión del embedding (representation-size) en 2.
 
-Ej. de uso de deepwalk:
+Ej. de uso de deepwalk: (por default seed = 0)
 
 deepwalk --format adjlist --input data/er-n30-p02.txt --max-memory-data-size 0 --number-walks 1 
 -- representation-size 2 --walk-length 5 --window-size 3 --workers 4 
@@ -80,4 +80,15 @@ Se realizaron pequeñas modificaciones:
 
 ------
 
+IDEA 4.
 
+Para la misma red se cambió el valor de la semilla. Se fijó window-size = 3, representation-size = 2, number-walks = 5,
+walk-lenght = 10, workers = 4.
+
+Se usó --seed = [0, 3, 10]
+
+deepwalk --format adjlist --input data/er-n30-p02.txt --max-memory-data-size 0 --number-walks 1 
+-- representation-size 2 --walk-length 5 --window-size 3 --workers 4 --seed 0
+--output deepwalk-embeddings/w3-x5-y10-seed0-er-n30-p02.txt
+
+------
