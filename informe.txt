@@ -87,8 +87,15 @@ walk-lenght = 10, workers = 4.
 
 Se usó --seed = [0, 3, 10]
 
-deepwalk --format adjlist --input data/er-n30-p02.txt --max-memory-data-size 0 --number-walks 1 
--- representation-size 2 --walk-length 5 --window-size 3 --workers 4 --seed 0
+Ej.
+
+deepwalk --format adjlist --input data/er-n30-p02.txt --max-memory-data-size 0 --number-walks 5 
+-- representation-size 2 --walk-length 10 --window-size 3 --workers 4 --seed 0
 --output deepwalk-embeddings/w3-x5-y10-seed0-er-n30-p02.txt
+
+Los embeddings se guardaron en la carpeta deepwalk-embeddings.
+
+Se los normalizó restando la media y dividiendo por la desviación estándar en cada dimensión. Los embeddings
+normalizados se guardaron en la carpeta embeddings-normalized.
 
 ------
