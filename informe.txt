@@ -98,4 +98,7 @@ Los embeddings se guardaron en la carpeta deepwalk-embeddings.
 Se los normalizó restando la media y dividiendo por la desviación estándar en cada dimensión. Los embeddings
 normalizados se guardaron en la carpeta embeddings-normalized.
 
+Asimismo, con idea-4.py se generó una única figura que contiene scatterplots de los
+embeddings normalizados (con walk-lenght 10 y number-walks 5) cambiando sólo el valor de seed.
+
 ------
