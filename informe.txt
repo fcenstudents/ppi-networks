@@ -85,7 +85,7 @@ IDEA 4.
 Para la misma red se cambió el valor de la semilla. Se fijó window-size = 3, representation-size = 2, number-walks = 5,
 walk-lenght = 10, workers = 4.
 
-Se usó --seed = [0, 3, 10]
+Se usó --seed = [0, 3, 10, 25, 106, 500]
 
 Ej.
 
