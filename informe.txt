@@ -102,3 +102,10 @@ Asimismo, con idea-4.py se generó una única figura que contiene scatterplots d
 embeddings normalizados (con walk-lenght 10 y number-walks 5) cambiando sólo el valor de seed.
 
 ------
+
+IDEA 5.
+
+Probamos graficar la distancia euclideana (embeddings) vs. otra propiedad de la red que no sean
+los shortest paths entre los nodos. Ej. betweenness centrality.
+
+------
