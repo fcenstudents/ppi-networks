@@ -54,7 +54,3 @@ plt.tight_layout()
 name = 'visualizations/' + 'idea-4-seeds.pdf'
 
 plt.savefig(name, format='pdf')
-
-
-
-
