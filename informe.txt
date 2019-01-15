@@ -113,6 +113,7 @@ los shortest paths entre los nodos. Ej. betweenness centrality.
 IDEA 6.
 
 Se generaron 3 nuevas redes de tipo Erdos-Renyi con igual p que la anterior (0.20) pero 
-distinto número de nodos. Ej. N = {100, 1000, 3000}.
+distinto número de nodos. Ej. N = {100, 500, 1000, 3000}. Se guardaron las adjlists
+correspondientes en la carpeta data.
 
 ------
