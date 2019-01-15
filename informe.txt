@@ -113,7 +113,19 @@ los shortest paths entre los nodos. Ej. betweenness centrality.
 IDEA 6.
 
 Se generaron 3 nuevas redes de tipo Erdos-Renyi con igual p que la anterior (0.20) pero 
-distinto número de nodos. Ej. N = {100, 500, 1000, 3000}. Se guardaron las adjlists
+distinto número de nodos. Ej. N = {100, 500, 1000}. Se guardaron las adjlists
 correspondientes en la carpeta data.
+
+Se generaron 30 embeddings (por red) usando deepwalk variando el número de caminos (1, 5, 10, 25, 50 y 100)
+y la longitud de los mismos (5, 10, 25, 50 y 100). Se fijó el tamaño de la vantana (window-size) en 3 y la
+dimensión del embedding (representation-size) en 2.
+
+Ej. de uso de deepwalk: (por default seed = 0)
+
+deepwalk --format adjlist --input data/er-n30-p02.txt --max-memory-data-size 0 --number-walks 1 
+-- representation-size 2 --walk-length 5 --window-size 3 --workers 4 
+--output deepwalk-embeddings/w3-x1-y5-er-n30-p02.txt
+
+Los embeddings se guardaban en achivos .txt dentro de la carpeta denominada deepwalk-embeddings.
 
 ------
