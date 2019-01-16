@@ -82,7 +82,7 @@ fig = plt.figure()
 
 for i, k in enumerate(X):
     x = float(xm[i])/float(xs[i])
-    y = float(ym[i])/float(ym[i])
+    y = float(ym[i])/float(ys[i])
     k = '(' + str(int(X[i])) + ',' + str(int(Y[i])) + ')'
     plt.scatter(x, y, marker='o', color='blue')
     plt.text(x, y, k, fontsize=7)
