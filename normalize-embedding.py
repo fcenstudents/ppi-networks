@@ -12,21 +12,25 @@ Standardization (or Z-score normalization) is the process where the features are
 # pandas 0.23.4
 # python 3.7.0
 
-import sys
-import os
-import pandas as pd
-
-name_arg = sys.argv[1]
 
 cwd = os.getcwd() 
 
-fname=cwd+'/deepwalk-embeddings/'+name_arg+'.txt'
+n_arg = sys.argv[1]
 
-data = pd.read_csv(fname, header=0, delimiter=' ')
+# walks
+x = [1, 5, 10, 25, 50, 100]
+# walk-lenght
+y = [5, 10, 25, 50, 100]
 
-data_scale = (data - data.mean()) / data.std()
 
-name = 'embeddings-normalized/'+ name_arg + '_norm.txt'
+for q in range(len(x)):
+	for r in range(len(y)):
+		fname= cwd + '/deepwalk-embeddings/' + 'w3-x' + str(x[q]) + '-y' + str(y[r]) + '-' + n_arg + '.txt'
 
-pd.DataFrame.to_csv(data_scale, path_or_buf=name, sep=' ', float_format='%.8f', columns=None, header=False, index=True, index_label=True)
+		data = pd.read_csv(fname, header=0, delimiter=' ')
 
+		data_scale = (data - data.mean()) / data.std()
+
+		name = 'embeddings-normalized/'+ 'w3-x' + str(x[q]) + '-y' + str(y[r]) + '-' + n_arg + '_norm'
+
+		pd.DataFrame.to_csv(data_scale, path_or_buf=name, sep=' ', float_format='%.8f', columns=None, header=False, index=True, index_label=True)
