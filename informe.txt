@@ -77,6 +77,7 @@ con el nombre idea-3.pdf.
 Se realizaron pequeñas modificaciones: 
 + cambio del tipo de cmap en el heatmap de correlaciones y anotación del valor de correlación (idea 3).
 + se usó "alpha" (grado de transparencia) en los scatterplots de la idea 2.
++ se arregló el gráfico de medias/std en el cual los puntos caían sobre la recta y = 1.
 
 ------
 
