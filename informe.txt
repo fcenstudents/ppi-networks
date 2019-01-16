@@ -134,4 +134,8 @@ Los embeddings se guardaban en achivos .txt dentro de la carpeta denominada deep
 Se normalizaron los embeddings obtenidos ejecutando el archivo normalize-embedding.py. Los nuevos embeddings
 se guardaron en la carpeta embeddings-normalized.
 
+A partir de los embeddings normalizados se generó el archivo idea-6-er-n30-p02.pdf en la carpeta visualizations
+mediante figura.py con una única figura que contiene como subplots a los embeddings. Se puede apreciar la
+disposición de los nodos a medida que se varían el número de caminos y su longitud.
+
 ------
