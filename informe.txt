@@ -144,4 +144,10 @@ Se llevó a cabo la IDEA 1. (En relación a la normalización efectuada sobre lo
 nos preguntamos si exite algún efecto tras variar los valores de número y longitud de caminos). Ver en la carpeta visualizations los archivos idea-1-mean-er-n100-p02.pdf, idea-1-std-er-n100-p02.pdf y
 idea-1-mean-std-er-n100-p02.pdf
 
+Se probó la IDEA 2 (relación entre los shortest path entre los nodos y la distancia euclideana de los mismos
+en los embeddings).
+
+También se implementó la IDEA 3 (heatmap que muestra las correlaciones entre las distancias en el grafo y en los 
+embeddings según el número y longitud de los caminos).
+
 ------
