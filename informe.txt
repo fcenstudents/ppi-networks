@@ -146,9 +146,9 @@ Ver en la carpeta visualizations los archivos idea-1-mean-er-n100-p02.pdf, idea-
 idea-1-mean-std-er-n100-p02.pdf
 
 Se probó la IDEA 2 (relación entre los shortest path entre los nodos y la distancia euclideana de los mismos
-en los embeddings).
+en los embeddings). Ver en visualizations el archivo idea-2-er-n100-p02.pdf.
 
 También se implementó la IDEA 3 (heatmap que muestra las correlaciones entre las distancias en el grafo y en los 
-embeddings según el número y longitud de los caminos).
+embeddings según el número y longitud de los caminos). Ver en visualizations el archivo idea-3-er-n100-p02.pdf.
 
 ------
