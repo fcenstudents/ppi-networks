@@ -137,9 +137,11 @@ se guardaron en la carpeta embeddings-normalized.
 A partir de los embeddings normalizados se generó el archivo idea-6-er-n30-p02.pdf en la carpeta visualizations
 mediante figura.py con una única figura que contiene como subplots a los embeddings. Se puede apreciar la
 disposición de los nodos a medida que se varían el número de caminos y su longitud. (Nota: no se etiquetaron a los
-nodos por conveniencia, sin embargo, se hizo un gráfico similar etiquetando solo a algunos idea-6-er-n100-p02-sample.pdf).
+nodos por conveniencia, sin embargo, se hizo un gráfico similar etiquetando solo a algunos
+idea-6-er-n100-p02-sample.pdf).
 
-Se llevó a cabo la IDEA 1. (En relación a la normalización efectuada sobre los embeddings originales nos preguntamos si exite algún efecto tras variar los valores de número y longitud de caminos). Ver en la carpeta visualizations los
-archivos idea-1-mean-er-n100-p02.pdf, idea-1-std-er-n100-p02.pdf y idea-1-mean-std-er-n100-p02.pdf
+Se llevó a cabo la IDEA 1. (En relación a la normalización efectuada sobre los embeddings originales
+nos preguntamos si exite algún efecto tras variar los valores de número y longitud de caminos). Ver en la carpeta visualizations los archivos idea-1-mean-er-n100-p02.pdf, idea-1-std-er-n100-p02.pdf y
+idea-1-mean-std-er-n100-p02.pdf
 
 ------
