@@ -157,3 +157,5 @@ embeddings según el número y longitud de los caminos). Ver en visualizations e
 Ídem red N = 100.
 
 ------
+
+Se creó la carpeta visualizations-resumen donde se colocó un resumen de figuras generadas a la fecha.
