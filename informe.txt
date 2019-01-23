@@ -160,3 +160,5 @@ la PC.
 ------
 
 Se creó la carpeta visualizations-resumen donde se colocó un resumen de figuras generadas a la fecha.
+
+Nota: puede que las correlaciones de la red N = 100 no estén bien calculadas. Revisar.
