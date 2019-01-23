@@ -154,7 +154,8 @@ embeddings según el número y longitud de los caminos). Ver en visualizations e
 
 ---Red N = 1000---
 
-Ídem red N = 100.
+Ídem red N = 100. (No se pudieron generar los gráficos de las "IDEA 2" e "IDEA 3" por limitaciones de 
+la PC.
 
 ------
 
