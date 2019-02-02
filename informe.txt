@@ -172,6 +172,8 @@ la carpeta visualizations-resumen. (VER)
 + Se generó una figura con 5 repeticiones de un mismo embedding para la red erdos-renyi N = 1000 con seed = 0,
 número de caminos 50 y longitud 50 (usando seed.sh y seed-0.py). Se guardaron los embeddings y los embeddings normalizados
 correspondidentes (ej. w3-x50-y50-er-n1000-p02-seed0-1.txt). Se guardó la figura de los embeddings normalizados para
-una misma semilla (0) en la carpeta visualizations (seeds0.png sin etiquetan en los nodos).
+una misma semilla (0) en la carpeta visualizations (seeds0.png sin etiquetas en los nodos). Con el archivo
+vis-seed-0.py se creó una figura seed-0-sample.png del mismo tipo pero con un sample sobre los nodos y se
+los etiquetó.
 
 ------
