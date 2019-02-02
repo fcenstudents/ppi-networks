@@ -165,6 +165,7 @@ Nota: puede que las correlaciones de la red N = 100 no estén bien calculadas. R
 
 ------
 
-Se creó el archivo dw.sh para agilizar y hacer más eficiente la generación de embeddings usando deepwalk.
++ Se creó el archivo dw.sh para agilizar y hacer más eficiente la generación de embeddings usando deepwalk.
++ Se cambió el tipo de archivo de imágenes de pdf a png.
 
 ------
