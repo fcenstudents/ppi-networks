@@ -51,6 +51,6 @@ for j in range(0, 3):
 
 plt.tight_layout()
 
-name = 'visualizations/' + 'idea-4-seeds.pdf'
+name = 'visualizations/' + 'idea-4-seeds.png'
 
-plt.savefig(name, format='pdf')
+plt.savefig(name, format='png')
