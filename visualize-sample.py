@@ -48,6 +48,6 @@ for w in range(0, len(X)):
 
 plt.tight_layout()
 
-name = 'visualizations/' + 'idea-6-er-n100-p02-sample.pdf'
+name = 'visualizations/' + 'idea-6-er-n100-p02-sample.png'
 
-plt.savefig(name, format='pdf')
+plt.savefig(name, format='png')
