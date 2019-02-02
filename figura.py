@@ -42,6 +42,6 @@ for w in range(0, len(X)):
 
 plt.tight_layout()
 
-name = 'visualizations/' + 'fig-embeddings.pdf'
+name = 'visualizations/' + 'fig-embeddings.png'
 
-plt.savefig(name, format='pdf')
+plt.savefig(name, format='png')
