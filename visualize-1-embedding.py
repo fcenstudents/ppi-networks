@@ -34,9 +34,9 @@ for i, label in enumerate(labels):
     plt.scatter(x, y, marker='x', color='red')
     plt.text(x, y, labelz, fontsize=9)
 
-name = 'visualizations/' + name_arg + '.pdf'
+name = 'visualizations/' + name_arg + '.png'
 
-plt.savefig(name, format='pdf')
+plt.savefig(name, format='png')
 
 
 
