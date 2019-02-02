@@ -59,9 +59,9 @@ for q in range(len(x)):
 
 plt.tight_layout()
 
-name = cwd + '/visualizations/idea-2.pdf'
+name = cwd + '/visualizations/idea-2.png'
 
-plt.savefig(name, format='pdf')
+plt.savefig(name, format='png')
 
 # generamos un heatmap de las correlaciones entre las distancias para la idea 3
 fig = plt.figure() 
@@ -70,7 +70,7 @@ ax = sns.heatmap(data, vmin=-1.0, vmax=1.0, xticklabels=x, yticklabels=y, annot=
 plt.title('correlation shortest-path vs euclidean distance')
 plt.xlabel('# walks')
 plt.ylabel('walk-lenght')
-name = cwd + '/visualizations/idea-3.pdf'
+name = cwd + '/visualizations/idea-3.png'
 
 figure = ax.get_figure()   
  
