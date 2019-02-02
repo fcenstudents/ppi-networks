@@ -169,5 +169,7 @@ Se creó la carpeta visualizations-resumen donde se colocó un resumen de alguna
 de covarianza normalizada.
 + Se generó una figura de los heatmaps de correlaciones de las redes N = 30, N = 100 y N = 1000. Se guardó en
 la carpeta visualizations-resumen. (VER)
++ Se generó una figura con 5 repeticiones de un mismo embedding para la red erdos-renyi N = 1000 con seed = 0,
+número de caminos 50 y longitud 50.
 
 ------
