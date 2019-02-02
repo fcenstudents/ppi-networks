@@ -154,20 +154,20 @@ embeddings según el número y longitud de los caminos). Ver en visualizations e
 
 ---Red N = 1000---
 
-Ídem red N = 100. (No se pudieron generar los gráficos de las "IDEA 2" e "IDEA 3" por limitaciones de 
-la PC.
+Ídem red N = 100. (No se pudieron generar los gráficos de las "IDEA 2" por limitaciones de la PC.
 
 ------
 
 Se creó la carpeta visualizations-resumen donde se colocó un resumen de algunas de las figuras generadas a la fecha.
-
-Nota: puede que las correlaciones de la red N = 100 no estén bien calculadas. Revisar.
 
 ------
 
 + Se creó el archivo dw.sh para agilizar y hacer más eficiente la generación de embeddings usando deepwalk.
 + Se cambió el tipo de archivo de imágenes de pdf a png.
 + A partir de idea-2-3.py se se creó idea-3.py (solo se separaron tareas).
-+ Se verificaron las correlaciones. Se está usando corrcoef() de Numpy la cual retorna la matriz
++ Se verificaron las correlaciones. Nota: se está usando corrcoef() de Numpy la cual retorna la matriz
 de covarianza normalizada.
++ Se generó una figura de los heatmaps de correlaciones de las redes N = 30, N = 100 y N = 1000. Se guardó en
+la carpeta visualizations-resumen. (VER)
+
 ------
