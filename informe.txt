@@ -167,5 +167,6 @@ Nota: puede que las correlaciones de la red N = 100 no estén bien calculadas. R
 
 + Se creó el archivo dw.sh para agilizar y hacer más eficiente la generación de embeddings usando deepwalk.
 + Se cambió el tipo de archivo de imágenes de pdf a png.
++ A partir de idea-2-3.py se se creó idea-3.py (solo se separaron tareas).
 
 ------
