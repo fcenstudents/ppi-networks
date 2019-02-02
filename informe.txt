@@ -170,7 +170,7 @@ de covarianza normalizada.
 + Se generó una figura de los heatmaps de correlaciones de las redes N = 30, N = 100 y N = 1000. Se guardó en
 la carpeta visualizations-resumen. (VER)
 + Se generó una figura con 5 repeticiones de un mismo embedding para la red erdos-renyi N = 1000 con seed = 0,
-número de caminos 50 y longitud 50. Se guardaron los embeddings y los embeddings normalizados
+número de caminos 50 y longitud 50 (usando seed.sh). Se guardaron los embeddings y los embeddings normalizados
 correspondidentes (ej. w3-x50-y50-er-n1000-p02-seed0-1.txt). Se guardó la figura de los embeddings
 en la carpeta visualizations. 
 
