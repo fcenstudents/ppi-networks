@@ -57,7 +57,7 @@ for i, k in enumerate(X):
     plt.xlabel('mean-x', fontsize=10) 
     plt.ylabel('mean-y', fontsize=10) 
 
-plt.savefig(str(cwd) + '/visualizations/idea-1-mean.pdf', format='pdf')
+plt.savefig(str(cwd) + '/visualizations/idea-1-mean.png', format='png')
 
 # scatterplot for the std in x and y 
 
@@ -73,7 +73,7 @@ for i, k in enumerate(X):
     plt.xlabel('std-x', fontsize=10) 
     plt.ylabel('std-y', fontsize=10) 
 
-plt.savefig(str(cwd) + '/visualizations/idea-1-std.pdf', format='pdf')
+plt.savefig(str(cwd) + '/visualizations/idea-1-std.png', format='png')
 
 
 # scatterplot for the mean/std in x and y 
@@ -90,5 +90,5 @@ for i, k in enumerate(X):
     plt.xlabel('mean/std-x', fontsize=10) 
     plt.ylabel('mean/std-y', fontsize=10) 
 
-plt.savefig(str(cwd) + '/visualizations/idea-1-mean-std.pdf', format='pdf')
+plt.savefig(str(cwd) + '/visualizations/idea-1-mean-std.png', format='png')
 
