@@ -162,3 +162,9 @@ la PC.
 Se creó la carpeta visualizations-resumen donde se colocó un resumen de algunas de las figuras generadas a la fecha.
 
 Nota: puede que las correlaciones de la red N = 100 no estén bien calculadas. Revisar.
+
+------
+
+Se creó el archivo dw.sh para agilizar y hacer más eficiente la generación de embeddings usando deepwalk.
+
+------
