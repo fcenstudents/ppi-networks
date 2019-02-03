@@ -180,4 +180,4 @@ correspondientes completos y muestreados).
 
 ------
 
-+ Se generó una red scale-free.
++ Se generó una red scale-free con create-scale-free-py. Se obtuvo un archivo con una edgelist.
