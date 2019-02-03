@@ -175,6 +175,7 @@ correspondidentes (ej. w3-x50-y50-er-n1000-p02-seed0-1.txt). Se guardó la figur
 una misma semilla (0) en la carpeta visualizations (seeds0.png sin etiquetas en los nodos). Con el archivo
 vis-seed-0.py se creó una figura seed-0-sample.png del mismo tipo pero con un sample sobre los nodos y se
 los etiquetó.
-+ Nuevamente se repitió el ítem anterior pero para valores de seeds diferentes.
++ Nuevamente se repitió el ítem anterior pero para valores de seeds diferentes (hay figuras de los embeddings
+correspondientes completos y muestreados).
 
 ------
