@@ -181,3 +181,11 @@ correspondientes completos y muestreados).
 ------
 
 + Se generó una red scale-free N=100, p=2.9 y m=5 con create-scale-free-py. Se obtuvo un archivo con una edgelist.
+
+------
+
++ Se generaron embeddings variando el número de caminos y longitud de los mismos (los mismos valores
+que para las redes erdos-renyi).
++ Se los normalizó y se aplicaron la IDEA-1 (media y desviación estándar),
+IDEA-2 (distancia euclideana vs shortest path) e IDEA-3 (correlaciones). 
++ Se generó figura de embeddings según los parámetros y una similar haciendo un muestreo.
