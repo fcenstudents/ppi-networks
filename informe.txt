@@ -189,3 +189,7 @@ que para las redes erdos-renyi).
 + Se los normalizó y se aplicaron la IDEA-1 (media y desviación estándar),
 IDEA-2 (distancia euclideana vs shortest path) e IDEA-3 (correlaciones). 
 + Se generó figura de embeddings según los parámetros y una similar haciendo un muestreo.
+
+-----
+
++ Se hizo un ordenamiento del repo.
