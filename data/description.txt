@@ -1,0 +1,4 @@
+er-n30-p02.txt  -----> red erdos-renyi undirected y simple con 30 nodos y p=0.02; formato adjlist.
+er-n100-p02.txt 	-----> red erdos-renyi undirected y simple con 100 nodos y p=0.02; formato adjlist.
+er-n1000-p02.txt   -----> red erdos-renyi undirected y simple con 1000 nodos y p=0.02; formato adjlist.
+sf-n100-m5-p29.txt  -----> red scale-free undirected y simple con 100 nodos, m=5 y power=2.90; formato edgelist.
