@@ -1,0 +1,2 @@
+En esta carpeta ("s-paths-networks") se encuentran archivos .txt con los valores de shortest-paths para
+cada par de nodos de las redes almacenadas en "data".
