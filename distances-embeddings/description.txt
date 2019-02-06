@@ -1,0 +1,3 @@
+En esta carpeta ("distances-embeddings") se encuentran archivos .txt con las distancias euclideanas, en los embeddings,
+del nodo "i" al nodo "j" para cada par de nodos de una dada red.
+
