@@ -5,9 +5,10 @@ Por lo general, los nombres de los archivos tienen la siguiente nomenclatura:
 
 Ej.
 
-w3-x1-y10-er-n100-p02.txt
+w3-x1-y10-er-n100-p02_norm
 
 w = window-size
 x = number-walks
 y = walk-length
 er-n100-p02 = nombre de la red en "data" (en este caso "er-n100-p02")
+norm = normalizado
