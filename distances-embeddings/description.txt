@@ -7,6 +7,7 @@ Ej.
 
 dist-w3-x1-y10-er-n100-p02.txt
 
+dist = "distancia euclideana"
 w = window-size
 x = number-walks
 y = walk-length
