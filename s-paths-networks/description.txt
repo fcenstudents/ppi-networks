@@ -1,6 +1,13 @@
 En esta carpeta ("s-paths-networks") se encuentran archivos .txt con los valores de shortest-paths para
 cada par de nodos de las redes almacenadas en "data".
 
+Por lo general, los nombres de los archivos tienen la siguiente nomenclatura:
+
 Ej.
 
 s-path-nodes-er-n100-p02.txt
+
+s-path-nodes = "shortest-path entre nodos"
+er-n100-p02 = nombre de la red en "data" (en este caso "er-n100-p02")
+
+
