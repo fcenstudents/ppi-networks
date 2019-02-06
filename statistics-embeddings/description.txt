@@ -1,1 +1,2 @@
-
+En esta carpeta ("statistics-embeddings") se encuentran archivos .txt con cálculos de la media, desviación estándar y
+el cociente entre estas dos cantidades tanto en "x" como en "y" para cada uno de los embeddings de las redes en "data".
