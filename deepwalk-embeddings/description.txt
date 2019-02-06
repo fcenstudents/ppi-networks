@@ -1,2 +1,14 @@
-En esta carpeta ("deepwalk-embeddings") se encuentran los embeddings generados luego de aplicar el algoritmo
+En esta carpeta ("deepwalk-embeddings") se encuentran los embeddings en archivos .txt generados luego de aplicar el algoritmo
 deepwalk con distintos valores de parámetros a las redes que están almacenadas en la carpeta "data".
+
+Por lo general, los nombres de los archivos tienen la siguiente nomenclatura:
+
+Ej.
+
+w3-x1-y10-er-n100-p02.txt
+
+w = window-size
+x = number-walks
+y = walk-length
+er-n100-p02 = nombre de la red en "data" (en este caso "er-n100-p02")
+
