@@ -1,0 +1,2 @@
+En esta carpeta ("deepwalk-embeddings") se encuentran los embeddings generados luego de aplicar el algoritmo
+deepwalk con distintos valores de parámetros a las redes que están almacenadas en la carpeta "data".
