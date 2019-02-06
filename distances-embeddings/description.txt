@@ -1,3 +1,13 @@
 En esta carpeta ("distances-embeddings") se encuentran archivos .txt con las distancias euclideanas, en los embeddings,
 del nodo "i" al nodo "j" para cada par de nodos de una dada red.
 
+Por lo general, los nombres de los archivos tienen la siguiente nomenclatura:
+
+Ej.
+
+dist-w3-x1-y10-er-n100-p02.txt
+
+w = window-size
+x = number-walks
+y = walk-length
+er-n100-p02 = nombre de la red en "data" (en este caso "er-n100-p02")
