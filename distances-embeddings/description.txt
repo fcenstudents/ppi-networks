@@ -1,5 +1,5 @@
-En esta carpeta ("distances-embeddings") se encuentran archivos .txt con las distancias euclideanas, en los embeddings,
-del nodo "i" al nodo "j" para cada par de nodos de una dada red.
+En esta carpeta ("distances-embeddings") se encuentran archivos .txt con las distancias euclideanas, en los embeddings
+normalizados, del nodo "i" al nodo "j" para cada par de nodos de una dada red.
 
 Por lo general, los nombres de los archivos tienen la siguiente nomenclatura:
 
