@@ -232,5 +232,7 @@ Especificar PYTHONHASHSEED=0 deshabilita el efecto.
 Efectivamente, de esta manera, se logró que los embeddings generados en distintas ejecuciones
 (para un mismo seed y valores de parámetros) sean iguales... :D
 
+Fijar workers=1 hace que deepwalk trabaje muy lento...
+
 -----
 
