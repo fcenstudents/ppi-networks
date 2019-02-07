@@ -221,6 +221,14 @@ seed : int, optional
 Por lo tanto se generaron 2 embeddings para una misma red con igual seed (seed=0), fijando
 workers=1 y usando un valor distinto de cero para la variable PYTHONHASHSEED.
 
+En el archivo dw.sh para generar los embeddings se colocó:
+
+export PYTHONHASHSEED=10
+
+O bien, se puede hacer: $ PYTHONHASHSEED=10 python YOURSCRIPT.py
+
+Especificar PYTHONHASHSEED=0 deshabilita el efecto.
+
 Efectivamente, de esta manera, se logró que los embeddings generados en distintas ejecuciones
 (para un mismo seed y valores de parámetros) sean iguales... :D
 
