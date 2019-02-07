@@ -1,4 +1,5 @@
 #!/bin/bash
+export PYTHONHASHSEED=10
 
 # walk-lenght
 X=(5 10 25 50 100)
