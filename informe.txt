@@ -193,3 +193,31 @@ IDEA-2 (distancia euclideana vs shortest path) e IDEA-3 (correlaciones).
 -----
 
 + Se hizo un ordenamiento del repo.
+
+
+-----
+
+Asunto SEEDS...
+
+Dada una red, para un mismo valor de seed (ej. seed=0) en deepwalk se generan exactamente los mismos
+caminos. Si uso distitos valores de seed se generan caminos diferentes. Esto fue comprobado al comparar
+los corpus de paths que deepwalk produce.
+
+Por lo tanto, la diferencia en los embeddings generados para un mismo seed no estaría provocada
+por una aleatoriedad en la generación de los caminos sino en el Skipgram.
+
+Más precisamente en la implementación de Word2Vec de Gensim...
+
+En el docstring de Word2Vec, entre otras cosas, se especifica lo siguiente:
+"""
+seed : int, optional
+            Seed for the random number generator. Initial vectors for each word are seeded with a hash of
+            the concatenation of word + `str(seed)`. Note that for a fully deterministically-reproducible run,
+            you must also limit the model to a single worker thread (`workers=1`), to eliminate ordering jitter
+            from OS thread scheduling. (In Python 3, reproducibility between interpreter launches also requires
+            use of the `PYTHONHASHSEED` environment variable to control hash randomization).
+"""
+
+Por lo tanto se generaron 2 embeddings para una misma red con igual seed (seed=0) y fijando
+workers=1.
+
