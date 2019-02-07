@@ -1,0 +1,2 @@
+En esta carpeta ("visualizations-resumen") hay figuras que engloban un mismo tipo de gráficos de 
+distintas redes para que se puedan comparar entre sí.
