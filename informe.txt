@@ -218,6 +218,11 @@ seed : int, optional
             use of the `PYTHONHASHSEED` environment variable to control hash randomization).
 """
 
-Por lo tanto se generaron 2 embeddings para una misma red con igual seed (seed=0) y fijando
-workers=1.
+Por lo tanto se generaron 2 embeddings para una misma red con igual seed (seed=0), fijando
+workers=1 y usando un valor distinto de cero para la variable PYTHONHASHSEED.
+
+Efectivamente, de esta manera, se logró que los embeddings generados en distintas ejecuciones
+(para un mismo seed y valores de parámetros) sean iguales... :D
+
+-----
 
