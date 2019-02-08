@@ -250,4 +250,15 @@ Asuntos ha dejar de lado por ahora:
 
 ------
 
+Se vieron los videos sobre deepwalk:
 
+https://slideplayer.com/slide/11064769/
+
+https://neo4j.com/graphconnect-2018/session/deepwalk-graphs-network-embeddings-skiena
+
+-----
+
+Tareas que me restan hacer:
++ mirar mejor el paper
++ fase d>2 (distancia de Hamming)
++ ver algoritmos para linkprediction para implementar
