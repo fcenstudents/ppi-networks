@@ -241,3 +241,13 @@ que se realizó antes pero esta vez se implementó hacer workers=1 y PYTHONHASHS
 varían...
 
 -----
+
+Asuntos ha dejar de lado por ahora:
+
++ probar otros valores de windows-size
++ heatmap de correlaciones (shortest-paths y distancia euclideana)
++ figuras de mean, std y mean/std
+
+------
+
+
