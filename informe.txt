@@ -236,3 +236,8 @@ Fijar workers=1 hace que deepwalk trabaje muy lento...
 
 -----
 
+Se generaron embeddings para una red con parámetros fijos pero cambiando el valor de las semillas. Una tarea
+que se realizó antes pero esta vez se implementó hacer workers=1 y PYTHONHASHSEED=10. Los embeddings igualmente
+varían...
+
+-----
