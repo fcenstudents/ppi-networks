@@ -262,3 +262,16 @@ Tareas que me restan hacer:
 + mirar mejor el paper
 + fase d>2 (distancia de Hamming)
 + ver algoritmos para linkprediction para implementar
+
+-----
+
+Un paquete para link prediction es "linkpred" v. 0.4.1 (pip install linkpred). EL mismo ofrece 
+variedad de predictores. TAmbién muestra fácilmente cómo implementarlos.
+También NetworkX tiene solo un par de algoritmos para link prediction pero sin ejemplos de uso.
+
+Por simplicidad, voy a intentar usar "linkpred".
+
+-----
+
+
+
