@@ -266,12 +266,18 @@ Tareas que me restan hacer:
 -----
 
 Un paquete para link prediction es "linkpred" v. 0.4.1 (pip install linkpred). EL mismo ofrece 
-variedad de predictores. TAmbién muestra fácilmente cómo implementarlos.
+variedad de predictores. También muestra fácilmente cómo implementarlos.
 También NetworkX tiene solo un par de algoritmos para link prediction pero sin ejemplos de uso.
 
 Por simplicidad, voy a intentar usar "linkpred".
 
 -----
 
-
-
++ Se agregaron los datasets de las ppi-networks en la carpeta data.
++ Upload de archivo red.py (num_nodos y num_edges)
++ Escritura de informe en inglés usando overleaf de lo que hay hasta ahora hecho.
++ Upload de archivo ppi-dw.sh (genera deepwalk embeddings de las ppi con valores de parámetros
+  reportados en "Spectral Network Embedding: A Fast and Scalable Method via Sparsity" de Zhang et al. 2018 para
+  cierta ppi. Específicamente windows-size=10, walk-length=40, representation-size=128 y walks=80.
++ Generación de embeddings de ejecuciones lentas.
++ Próximamente, podría usar t-SNE para reducción de dimencionalidad para visualizar.
