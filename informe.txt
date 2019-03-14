@@ -279,5 +279,6 @@ Por simplicidad, voy a intentar usar "linkpred".
 + Upload de archivo ppi-dw.sh (genera deepwalk embeddings de las ppi con valores de parámetros
   reportados en "Spectral Network Embedding: A Fast and Scalable Method via Sparsity" de Zhang et al. 2018 para
   cierta ppi. Específicamente windows-size=10, walk-length=40, representation-size=128 y walks=80.
-+ Generación de embeddings de ejecuciones lentas.
-+ Próximamente, podría usar t-SNE para reducción de dimencionalidad para visualizar.
++ Generación de embeddings de ejecuciones lentas... (pruebo con 2 ppi's: ratuss norvegicus e hybrid yeast).
++ Upload de embeddings sin normalizar y normalizados.
++ Uso de t-SNE para reducción de dimencionalidad para visualizar.
