@@ -286,7 +286,7 @@ Por simplicidad, voy a intentar usar "linkpred".
 + Upload de archivo tsne-embedding.py donde se obtienen visualizaciones 2D tras usar la implementación
   de t-sne de scikit-learn.
 + Visualización de los embeddings generados de las dos redes ppi tras usar t-sne.
-+ Uploads de visualizaciones en carpeta visualizations.
++ Uploads de visualizaciones en carpeta visualizations (tsne-rattus-d128.pdf y tsne-inter-d128.pdf).
 -----
 + Se seleccionó una de las redes de ppi (rattus norvegicus) y se generaron más embeddings. Esta vez manteniendo
   los parámetros con valores windows-size=10, walk-length=40 y walks=80 (los usados en el paper mencionado
