@@ -8,7 +8,7 @@ import numpy as np
 cwd = os.getcwd() 
 
 
-fname = cwd + '/deepwalk-embeddings/w10-80walks-40l-d128-rattus_norvegicus.txt'
+fname = cwd + '/embeddings-normalized/w10-80walks-40l-d128-rattus_norvegicus_norm'
 data = pd.read_csv(fname, delimiter=' ', header=None)
 
 df = data.as_matrix()
