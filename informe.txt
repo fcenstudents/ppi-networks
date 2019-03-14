@@ -281,4 +281,15 @@ Por simplicidad, voy a intentar usar "linkpred".
   cierta ppi. Específicamente windows-size=10, walk-length=40, representation-size=128 y walks=80.
 + Generación de embeddings de ejecuciones lentas... (pruebo con 2 ppi's: ratuss norvegicus e hybrid yeast).
 + Upload de embeddings sin normalizar y normalizados.
-+ Uso de t-SNE para reducción de dimencionalidad para visualizar.
++ Uso de t-SNE para reducción de dimensionalidad para visualizar.
+-----
++ Upload de archivo tsne-embedding.py donde se obtienen visualizaciones 2D tras usar la implementación
+  de t-sne de scikit-learn.
++ Visualización de los embeddings generados de las dos redes ppi tras usar t-sne.
++ Uploads de visualizaciones en carpeta visualizations.
+-----
++ Se seleccionó una de las redes de ppi (rattus norvegicus) y se generaron más embeddings. Esta vez manteniendo
+  los parámetros con valores windows-size=10, walk-length=40 y walks=80 (los usados en el paper mencionado
+  anteriormente) pero cambiando el valor de representation-size.
++ Generación de una figura de los embeddings con diferentes dimenciones luego de usar t-sne con n-componets=2.
+----
