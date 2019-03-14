@@ -290,6 +290,6 @@ Por simplicidad, voy a intentar usar "linkpred".
 -----
 + Se seleccionó una de las redes de ppi (rattus norvegicus) y se generaron más embeddings. Esta vez manteniendo
   los parámetros con valores windows-size=10, walk-length=40 y walks=80 (los usados en el paper mencionado
-  anteriormente) pero cambiando el valor de representation-size.
+  anteriormente) pero cambiando el valor de representation-size (ej. 2 10 20 50 80 100).
 + Generación de una figura de los embeddings con diferentes dimenciones luego de usar t-sne con n-componets=2.
 ----
