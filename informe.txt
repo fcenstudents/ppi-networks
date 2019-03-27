@@ -293,3 +293,20 @@ Por simplicidad, voy a intentar usar "linkpred".
   anteriormente) pero cambiando el valor de representation-size (ej. 2 10 20 50 80 100).
 + Generación de una figura de los embeddings con diferentes dimenciones luego de usar t-sne con n-componets=2.
 ----
+
+De la última reunión (martes 26/3/19) quedamos en lo siguiente:
+
++ Subir papers que mencioné para elegir parámetros de deepwalk al repo.
++ Subir figura de embeddings de la red inter_H-Y donde se varía el número de dimensiones (fijos los demás parámetros).
+  Esta es una figura similar a la de rattus norvegicus y la idea era comparar la distribución de los nodos y clusters.
++ Probar con dimensión mayor a 128 en los embeddings.
++ Sería interesante cambiar los valores de número de caminos y longitud de los mismos en altas
+  dimensiones (no es prioritario).
++ Prioridades: 
+            1) Aplicar un algoritmo de clustering directo sobre la red.
+                         - sugerencias de Luis: k-means, DB-scan y Hierarchical Agglomerative Clustering.
+                         - mirar link https://scikit-learn.org/stable/modules/clustering.html
+            2) Comparar lo obtenido de 1) con lo obtenido tras aplicar deepwalk + t-SNE + clustering.
+            3) Analizar y mostrar fracción de nodos que pertenecen a un cluster A en la dimensión X y que 
+               siguen estando en el cluster A en la dimensión Y. (Pensar bien cómo mostrar la información).
+               
