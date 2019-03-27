@@ -310,3 +310,10 @@ De la última reunión (martes 26/3/19) quedamos en lo siguiente:
             3) Analizar y mostrar fracción de nodos que pertenecen a un cluster A en la dimensión X y que 
                siguen estando en el cluster A en la dimensión Y. (Pensar bien cómo mostrar la información).
                
+-------
+
+Se subió el paper: "Spectral Network Embedding: A Fast and Scalable Method via Sparsity" de Zhang et al. 2018 como
+zhang-et-al-2018.pdf. Dentro de las cosas que se hizo allí fue aplicar deepwalk a una ppi (N=3,890 y E= 76,584)
+con valores de parámetros por defecto (windows-size=10, walk-length=40, walks=80) pero con representation-size=128.
+
+------
