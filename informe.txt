@@ -300,6 +300,7 @@ De la última reunión (martes 26/3/19) quedamos en lo siguiente:
 + Subir figura de embeddings de la red inter_H-Y donde se varía el número de dimensiones (fijos los demás parámetros).
   Esta es una figura similar a la de rattus norvegicus y la idea era comparar la distribución de los nodos y clusters.
 + Probar con dimensión mayor a 128 en los embeddings.
++ Hacer un slice 2D de uno de los embeddings para ver cómo se ve compaarado con la versión del embedding usando t-SNE.
 + Sería interesante cambiar los valores de número de caminos y longitud de los mismos en altas
   dimensiones (no es prioritario).
 + Prioridades: 
@@ -320,7 +321,8 @@ Hay otros (del estilo) que usan la misma red y aplican deepwalk con los mismos p
 ------
 
 Se subió la figura de los embeddings de la red inter_H-Y (como la de rattus) con dimensiones (d): 2, 10, 20, 50,
-80, 100, 128, 300 y 500. (Se probó con d > 128).
+80, 100, 128, 300 y 500. (Se probó con d > 128). Y se actualizó la de rattus sumando estas dos nuevos embeddings
+de d=300 y d=500.
 
 ------
 
