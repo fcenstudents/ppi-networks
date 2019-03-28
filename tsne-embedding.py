@@ -4,26 +4,24 @@ import pandas as pd
 import sys
 import os
 import numpy as np
+from sklearn.manifold import TSNE
+from matplotlib import pyplot as plt
 
 cwd = os.getcwd() 
 
-# Red rattus norvegicus como ejemplo
-fname = cwd + '/embeddings-normalized/w10-80walks-40l-d128-rattus_norvegicus_norm'
-data = pd.read_csv(fname, delimiter=' ', header=None)
+lst1 = ["rattus-norvegicus", "inter_H-Y"]
+lst2 = [2, 10, 20, 50, 80, 100, 128, 300, 500]
 
-df = data.as_matrix()
-X = df[::,1:]
-
-from sklearn.manifold import TSNE
-tsne = TSNE(n_components=2, random_state=0)
-
-X_2d = tsne.fit_transform(X)
-
-from matplotlib import pyplot as plt
-plt.figure(figsize=(6, 5))
-for i in range(len(X_2d)):
-	plt.scatter(X_2d[i, 0], X_2d[i, 1], s=2, c='red', alpha=0.5)
-
-plt.savefig(str(cwd)+'/tsne-rattus-d128.pdf', format='pdf')
-
-
+for k in lst1:
+	for g in lst2:
+		fname = cwd + '/embeddings-normalized/w10-80walks-40l-d' + str(g) + '-' + str(k) + '_norm'
+		data = pd.read_csv(fname, delimiter=' ', header=None)
+		df = data.as_matrix()
+		X = df[::,1:]
+		tsne = TSNE(n_components=2, random_state=0)
+		X_2d = tsne.fit_transform(X)
+		plt.figure(figsize=(6, 5))
+		for i in range(len(X_2d)):
+			plt.scatter(X_2d[i, 0], X_2d[i, 1], s=2, c='red', alpha=0.5)
+		plt.title("d" + str(g))
+		plt.savefig(str(cwd) + '/tsne-' + str(k) + '-d' + str(g) + '.png', format='png')
