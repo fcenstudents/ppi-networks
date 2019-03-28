@@ -1,0 +1,3 @@
+
+Dentro de esta carpeta se encuentran las visualizaciones de los embeddings de redes ppi de alta dimensión
+tras aplicar t-SNE para tener una representación 2D.
