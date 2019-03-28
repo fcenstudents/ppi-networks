@@ -324,5 +324,8 @@ Se subió la figura de los embeddings de la red inter_H-Y (como la de rattus) co
 80, 100, 128, 300 y 500. (Se probó con d > 128). Y se actualizó la de rattus sumando estas dos nuevos embeddings
 de d=300 y d=500. Las figuras están guardadas en una nueva carperta: "ppi-visualizations".
 
+Nota: para el caso de un embedding de dimensión igual a 2, la visualización direca del embedding es diferente
+a la obtenida tras aplicar t-SNE con componentes igual a 2. (Se adjunta gráfico en ppi-visualizations).
+
 ------
 
