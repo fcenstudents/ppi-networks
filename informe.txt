@@ -335,3 +335,8 @@ las redes rattus e inter. Los slices 2D graficados son:
 
 ------
 
+Se graficaron las redes rattus e inter (nodos con conexiones) SIN distinguir clusters con colores.
+Ver draw-rattus-norvegicus.png y draw-inter_H-Y.png en ppi-visualizations.
+
+------
+
