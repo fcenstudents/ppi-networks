@@ -340,3 +340,7 @@ Ver draw-rattus-norvegicus.png y draw-inter_H-Y.png en ppi-visualizations.
 
 ------
 
+Prueba de algoritmos de clustering directo sobre las redes rettus e inter con visualización con
+colores.
+
+------
