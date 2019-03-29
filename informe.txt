@@ -329,3 +329,9 @@ a la obtenida tras aplicar t-SNE con componentes igual a 2. (Se adjunta gráfico
 
 ------
 
+Se cargó una figura que contiene gráficos de slices de los embeddings de dimensión 128 (como ejemplo) de
+las redes rattus e inter. Los slices 2D graficados son:
+1) d20 vs. d50, 2) d20 vs. d80, 3) d20 vs. d100, 4) d50 vs. d100, y 5) d80 vs. d100.
+
+------
+
