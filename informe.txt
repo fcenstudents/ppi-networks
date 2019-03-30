@@ -348,12 +348,21 @@ algoritmos (greedy_modularity_communities, asyn_lpa_communities, label_propagati
 asyn_fluidc, girvan_newman) y la segunda 9. Se probaron con casi todos, y se eligió
 usar Clauset-Newman-Moore greedy modularity maximization (disponible en ambas librerías) por cuestión
 de que es muy rápido y escala bien en redes de muchos nodos. Se observó pequeñas diferencias en los resultados
-en cuanto a número de comunidades (diferencias de hasta 5) y por ende, en composición...
+en cuanto a número de comunidades (INTER: #com_networkx=85 y #com_igraph=90 ; RATTUS: #com_networkx=155
+y #com_igraph=154 ).
 
 Se subió un archivo con un código que genera un archivo (net-clustering.py) con las comunidades encontradas
-usando el algoritmo greedy, tanto usando la implementación de NetworkX y Igraph.
+usando el algoritmo greedy,tanto usando la implementación de NetworkX y Igraph.
 
-También se subieron los archivos con las comunidades.
+También se subieron los archivos producidos por net-clustering.py con las comunidades en una nueva carpeta
+llamada "network-communities":
+Nombre de los archivos:
+            com-fastgreedy-inter_H-Y_I.txt  (comunidades en red inter_H-Y según igraph)
+            com-fastgreedy-inter_H-Y_NX.txt     (comunidades en red inter_H-Y según NetworkX)
+            com-fastgreedy-rattus-norvegicus_I.txt          (comunidades en red rattus según igraph)
+            com-fastgreedy-rattus-norvegicus_NX.txt         (comunidades en red rattus según igraph)
+
+
 
 Y unas visualizaciones de la red donde con colores se muestran sólo las comunidades más grandes
 (decidido a ojo tras observar los tamaños de las comunidades).
