@@ -343,4 +343,18 @@ Ver draw-rattus-norvegicus.png y draw-inter_H-Y.png en ppi-visualizations.
 Prueba de algoritmos de clustering directo sobre las redes rettus e inter con visualización con
 colores.
 
+Se exploraron los algoritmos de clustering de las librerías NetworkX y Igraph de Python. La primera presentaba
+alrededor de cuatro algoritmos y la segunda alrededor de nueve. Se probaron con casi todos, y se eligió
+usar Clauset-Newman-Moore greedy modularity maximization (disponible en ambas librerías) por cuestión
+de que es muy rápido y escala bien en redes de muchos nodos. Se observó pequeñas diferencias en los resultados
+en cuanto a número de comunidades (diferencias de hasta 5) y por ende, en composición...
+
+Se subió un archivo con un código que genera un archivo con las comunidades encontradas usando el algoritmo
+greedy, tanto usando la implementación de NetworkX y Igraph.
+
+También se subieron los archivos con las comunidades.
+
+Y unas visualizaciones de la red donde con colores se muestran sólo las comunidades más grandes
+(decidido de forma manual, tras observar los tamaños de las comunidades).
+
 ------
