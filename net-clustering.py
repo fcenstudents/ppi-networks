@@ -182,7 +182,7 @@ for i in lst:
 			if len(list(y)) > 20:
 				#print(list(y))
 				#print('\n')
-				nx.draw_networkx_nodes(G, pos=pos, nodelist=list(y), node_color='r', alpha=0.5, node_size=100)
+				nx.draw_networkx_nodes(G, pos=pos, nodelist=list(y), node_color=c, alpha=0.5, node_size=100)
 			if len(list(y)) <= 20:
 				nx.draw_networkx_nodes(G, pos=pos, nodelist=list(y), node_color='b', alpha=0.5, node_size=100)
 		plt.savefig(str(cwd)+'/draw-com-nx-'+str(i)+'.png', format="png")
@@ -191,7 +191,7 @@ for i in lst:
 			if len(list(y)) > 60:
 				#print(list(y))
 				#print('\n')
-				nx.draw_networkx_nodes(G, pos=pos, nodelist=list(y), node_color='r', alpha=0.5, node_size=100)
+				nx.draw_networkx_nodes(G, pos=pos, nodelist=list(y), node_color=c, alpha=0.5, node_size=100)
 			if len(list(y)) <= 60:
 				nx.draw_networkx_nodes(G, pos=pos, nodelist=list(y), node_color='b', alpha=0.5, node_size=100)
 		plt.savefig(str(cwd)+'/draw-com-nx-'+str(i)+'.png', format="png")
