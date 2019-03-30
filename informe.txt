@@ -362,9 +362,13 @@ Nombre de los archivos:
             com-fastgreedy-rattus-norvegicus_I.txt          (comunidades en red rattus según igraph)
             com-fastgreedy-rattus-norvegicus_NX.txt         (comunidades en red rattus según igraph)
 
+Se generaron unas visualizaciones de las redes donde con colores se muestran sólo las comunidades más grandes
+(decidido a ojo tras observar los tamaños de las comunidades) y en negro los nodos, que si bien pueden
+pertenecer a comunidades, éstas son mucho más chicas que aquellas cosideradas. Ver los siguientes archivos en
+la carpeta ppi-visualizations:
+            draw-com-nx-rattus-norvegicus.png
+            draw-com-nx-inter_H-Y.png
 
-
-Y unas visualizaciones de la red donde con colores se muestran sólo las comunidades más grandes
-(decidido a ojo tras observar los tamaños de las comunidades).
+(No aportan nada, hay mucha mezcla de colores, en todo caso habría que arreglar la visualización....)
 
 ------
