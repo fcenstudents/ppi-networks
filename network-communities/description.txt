@@ -1,0 +1,2 @@
+En esta carpeta se encuentran archivos que contienen las comunidades encontradas en las redes PPI
+tras aplicar algoritmos de clustering directamente sobre los grafos.
