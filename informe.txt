@@ -372,3 +372,8 @@ la carpeta ppi-visualizations:
 (No aportan nada, hay mucha mezcla de colores, en todo caso habría que arreglar la visualización....)
 
 ------
+
+Se creó la carpeta tsne-2d que contiene archivos con los nuevos embeddings, es decir, aquellos producto de
+mapear los embeddings de deepwalk a un espacio 2D tras aplicar el algoritmo t-SNE.
+
+------
