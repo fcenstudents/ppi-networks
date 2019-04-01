@@ -1,0 +1,2 @@
+En esta carpeta se encuentran visualizaciones tras aplicar DBSCAN a los embeddings 2D de t-SNE.
+También hay files con los nodos que componen cada cluster detectado.
