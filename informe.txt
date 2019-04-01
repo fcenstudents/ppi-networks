@@ -377,3 +377,11 @@ Se creó la carpeta tsne-2d que contiene archivos con los nuevos embeddings, es 
 mapear los embeddings de deepwalk a un espacio 2D tras aplicar el algoritmo t-SNE.
 
 ------
+
+Mediante el archivo "clustering-embedding.py" se aplicó un algoritmo de clustering adecuado (DBSCAN) sobre los
+embeddings 2D generados por t-SNE. Este archivo genera visualizaciones de dichos embeddings donde aparecen
+coloreados los clusters y, a su vez, se generan archivos txt con los nodos que conforman cada cluster.
+
+Estado: COMPLETANDO...
+
+-----
