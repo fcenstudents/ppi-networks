@@ -1,5 +1,3 @@
-
-
 import pandas as pd
 import sys
 import os
@@ -20,6 +18,9 @@ for k in lst1:
 		X = df[::,1:]
 		tsne = TSNE(n_components=2, random_state=0)
 		X_2d = tsne.fit_transform(X)
+		XD = pd.DataFrame(X_2d)
+		result = pd.concat([data[0], XD], axis=1, sort=False)
+		np.savetxt(cwd + '/tsne-2d/tsne-w10-80walks-40l-d' + str(g) + '-' + str(k) , result.values, fmt='%f')
 		plt.figure(figsize=(6, 5))
 		for i in range(len(X_2d)):
 			plt.scatter(X_2d[i, 0], X_2d[i, 1], s=2, c='red', alpha=0.5)
