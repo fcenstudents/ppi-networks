@@ -1,0 +1,2 @@
+En esta carpeta se encuentran nuevos embeddings producto de mapear los embeddings de deepwalk a un espacio 2D a
+través de t-SNE.
