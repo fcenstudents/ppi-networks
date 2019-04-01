@@ -14,7 +14,7 @@ for k in lst1:
 	for g in lst2:
 		fname = cwd + '/embeddings-normalized/w10-80walks-40l-d' + str(g) + '-' + str(k) + '_norm'
 		data = pd.read_csv(fname, delimiter=' ', header=None)
-		df = data.as_matrix()
+		df = data.values
 		X = df[::,1:]
 		tsne = TSNE(n_components=2, random_state=0)
 		X_2d = tsne.fit_transform(X)
