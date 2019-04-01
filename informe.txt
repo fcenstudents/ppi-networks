@@ -382,6 +382,6 @@ Mediante el archivo "clustering-embedding.py" se aplicó un algoritmo de cluster
 embeddings 2D generados por t-SNE. Este archivo genera visualizaciones de dichos embeddings donde aparecen
 coloreados los clusters y, a su vez, se generan archivos txt con los nodos que conforman cada cluster.
 
-Estado: COMPLETANDO...
+Ver en la carpeta "dbscan-tsne-ppi-embeddings" las figuras "a-dbscan-inter_H-Y" y "a-dbscan-rattus"
 
 -----
