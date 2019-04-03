@@ -386,7 +386,10 @@ Ver en la carpeta "dbscan-tsne-ppi-embeddings" las figuras "a-dbscan-inter_H-Y" 
 
 -----
 
-PRÓXIMO PASO: comparar composición de clusters entre embeddings con distinta dimensión y con los clusters
+PRÓXIMOS PASOS:
+
+1) aplicar aglomerative clustering (en vez de DBSCAN).
+2) comparar composición de clusters entre embeddings con distinta dimensión y con los clusters
 que surgieron tras aplicar un algoritmo de búsqueda de comunidades directamente sobre el grafo.
 
 -----
