@@ -414,7 +414,28 @@ que surgieron tras aplicar un algoritmo de búsqueda de comunidades directamente
     
     En NetworkX no hay algoritmos de comparación de clusters...
     
+    Algo de info en la web para atacar el problema que intento dar solución:
     
+           * https://stackoverflow.com/questions/45083521/how-can-you-compare-two-cluster-groupings-in-terms-of-similarity-
+            or-overlap-in-p --> Se sugiere usar métricas de evaluación como el "adjusted Rand index". (A value close to 1
+            means they are very similar, close to 0 is random, and much less than 0 means each cluster of one is "evenly"
+            distributed over all clusters of the other).
+            
+           * https://www.quora.com/How-do-I-compare-results-of-different-clustering-methods --> Dice que "Rand index" es
+             un método muy común. Y sugiere leer https://i11www.iti.kit.edu/extra/publications/ww-cco-06.pdf, "Comparing
+             Clusterings - An Overview" de Silke Wagner y Dorothea Wagner, 2007.
+
+           * Hay más del estilo...
+           
+    En el paquete de scikit-learn hay métricas para clustering:
+             https://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics
+             https://scikit-learn.org/stable/modules/clustering.html#clustering-evaluation
+
+    Dentro de "measures based on set overlaps" (ej. F-Measure, Meila-Heckerman-Measure,
+    Maximum-Match-Measure, Van Dongen-Measure) podemos usar Meila-Heckerman-Measure que cuenta implementación en 
+    igraph.
+    
+    Hice un pequeño script de prueba probando alguna que otra métrica.
     
 -----
       
