@@ -388,8 +388,18 @@ Ver en la carpeta "dbscan-tsne-ppi-embeddings" las figuras "a-dbscan-inter_H-Y" 
 
 PRÓXIMOS PASOS:
 
-1) aplicar aglomerative clustering (en vez de DBSCAN).
-2) comparar composición de clusters entre embeddings con distinta dimensión y con los clusters
+1) comparar composición de clusters entre embeddings con distinta dimensión y con los clusters
 que surgieron tras aplicar un algoritmo de búsqueda de comunidades directamente sobre el grafo.
+2) aplicar aglomerative clustering (en vez de DBSCAN). [CUANDO TERMINE CON 1].
 
 -----
+
+1) Con respecto a la comparación de clusters igraph presenta dos algoritmos interesantes para ello y que 
+   aplican métricas:
+   
+   A) compare_communities(comm1, comm2, method='vi', remove_none=False)
+      Compares two community structures using various distance measures.
+   B) split_join_distance(comm1, comm2, remove_none=False)
+      Calculates the split-join distance between two community structures.
+      
+      
