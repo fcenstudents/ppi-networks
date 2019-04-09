@@ -406,9 +406,15 @@ que surgieron tras aplicar un algoritmo de búsqueda de comunidades directamente
             "vi" or "meila" means the variation of information metric of Meila (2003),
             "nmi" or "danon" means the normalized mutual information as defined by Danon et al (2005),
             "split-join" means the split-join distance of van Dongen (2000).
+            "rand" means the Rand index of Rand (1971), "adjusted_rand" means the adjusted Rand index
+             of Hubert and Arabie (1985).
             
       Métodos disponibles en B):
             "split-join"
+    
+    En NetworkX no hay algoritmos de comparación de clusters...
+    
+    
     
 -----
       
