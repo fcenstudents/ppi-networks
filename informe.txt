@@ -402,4 +402,13 @@ que surgieron tras aplicar un algoritmo de búsqueda de comunidades directamente
    B) split_join_distance(comm1, comm2, remove_none=False)
       Calculates the split-join distance between two community structures.
       
+      Métodos disponibles en A):
+            "vi" or "meila" means the variation of information metric of Meila (2003),
+            "nmi" or "danon" means the normalized mutual information as defined by Danon et al (2005),
+            "split-join" means the split-join distance of van Dongen (2000).
+            
+      Métodos disponibles en B):
+            "split-join"
+    
+-----
       
