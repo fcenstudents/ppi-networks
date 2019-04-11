@@ -435,5 +435,12 @@ que surgieron tras aplicar un algoritmo de búsqueda de comunidades directamente
     
     Hice un pequeño script de prueba probando alguna que otra métrica.
     
+    Ideas para la etapa 2): presentar los resultados de los elementos en común a través de un heatmap.
+    Pienso en considerar todos los clusters de cada uno de los embeddings (A1, A2, ..., Aka, B1, B2, ..., Bkb, ...,
+    Z1, Z2, ..., Zkz; donde A, B, ..., Z, son embeddings de dimensiones dA, dB, ..., dZ respectivamente.) como filas 
+    y columnas del heatmap. La escala de colores va a indicar el valor de la métrica (aún a determinar) usada para
+    comparar fracción de nodos compartidos. De esta manera, va a ser práctico comparar las composiciones a través
+    de los clusters en otras dimensiones.
+    
 -----
       
