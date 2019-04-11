@@ -442,5 +442,12 @@ que surgieron tras aplicar un algoritmo de búsqueda de comunidades directamente
     comparar fracción de nodos compartidos. De esta manera, va a ser práctico comparar las composiciones a través
     de los clusters en otras dimensiones.
     
+    Métricas en vista: 
+    
+    + JACCARD SIMILARITY MEASURE
+    The Jaccard similarity measures the similarity between finite sample sets and is defined as the cardinality
+    of the intersection of sets divided by the cardinality of the union of the sample sets.
+
+    
 -----
       
