@@ -431,9 +431,7 @@ que surgieron tras aplicar un algoritmo de búsqueda de comunidades directamente
              https://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics
              https://scikit-learn.org/stable/modules/clustering.html#clustering-evaluation
 
-    Dentro de "measures based on set overlaps" (ej. F-Measure, Meila-Heckerman-Measure,
-    Maximum-Match-Measure, Van Dongen-Measure) podemos usar Meila-Heckerman-Measure que cuenta implementación en 
-    igraph.
+    Problemas: comparación de sets de igual size (enfoque: clasificación).
     
     Hice un pequeño script de prueba probando alguna que otra métrica.
     
