@@ -433,8 +433,6 @@ que surgieron tras aplicar un algoritmo de búsqueda de comunidades directamente
 
     Problemas: comparación de sets de igual size (enfoque: clasificación).
     
-    Hice un pequeño script de prueba probando alguna que otra métrica.
-    
     Ideas para la etapa 2): presentar los resultados de los elementos en común a través de un heatmap.
     Pienso en considerar todos los clusters de cada uno de los embeddings (A1, A2, ..., Aka, B1, B2, ..., Bkb, ...,
     Z1, Z2, ..., Zkz; donde A, B, ..., Z, son embeddings de dimensiones dA, dB, ..., dZ respectivamente.) como filas 
@@ -444,10 +442,9 @@ que surgieron tras aplicar un algoritmo de búsqueda de comunidades directamente
     
     Métricas en vista: 
     
-    + JACCARD SIMILARITY MEASURE
+    ++ JACCARD SIMILARITY MEASURE ++
     The Jaccard similarity measures the similarity between finite sample sets and is defined as the cardinality
     of the intersection of sets divided by the cardinality of the union of the sample sets.
 
-    
 -----
       
