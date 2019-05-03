@@ -1,3 +1,4 @@
+# genero embeddings usando t-sne en los embeddings de deepwalk
 import pandas as pd
 import sys
 import os
