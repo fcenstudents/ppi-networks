@@ -438,7 +438,8 @@ que surgieron tras aplicar un algoritmo de búsqueda de comunidades directamente
     Z1, Z2, ..., Zkz; donde A, B, ..., Z, son embeddings de dimensiones dA, dB, ..., dZ respectivamente.) como filas 
     y columnas del heatmap. La escala de colores va a indicar el valor de la métrica (aún a determinar) usada para
     comparar fracción de nodos compartidos. De esta manera, va a ser práctico comparar las composiciones a través
-    de los clusters en otras dimensiones.
+    de los clusters en otras dimensiones. [PROBLEMA. SI HAY UN UN GRAN NÚMERO DE CLUSTERS SE VUELVE UNA SOLUCIÓN POCO
+    ADECUADA. LLEGADO A ESE CASO, HABRÍA QUE SELECCIONAR CLUSTERS RELEVANTES...]
     
     Métricas en vista: 
     
