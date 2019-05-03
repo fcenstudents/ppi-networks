@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-#!/usr/bin/env python3
-
-
 # matplotlib 2.2.3
 # networkx 2.2
 # python 3.7.0
