@@ -1,1 +1,13 @@
++ A las redes (inter_H-Y y rattus_norvegicus) en algún momento se les aplicó un algoritmo de
+detección de comunidades de forma directa (fast greedy) implementado en dos versiones distintas: una
+implementación en igraph y otra en NetworkX. Ambas arrojaron resultados distintos, detectando 85 comunidades una y
+90 comunidades otra.
 
++ Por lo tanto, dada una red, los resultados en los cuales se comparaban los clusters más grades de cada dimensión
+con el cluster más grande de la clusterización directa usando fast greedy están desdoblados, es decir,
+la comparación se realizó con el más grande obtenido de la implementación de NetworkX y luego con el más grande
+del de la de igraph.
+
++ Por otro lado, se calculó el índice de Jaccard entre los clusters más grandes de NetworkX y igraph:
+En la red inter_H-Y: J = 0.0
+En la red rattus: J =
