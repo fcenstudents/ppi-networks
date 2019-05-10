@@ -1,5 +1,5 @@
-+ A las redes (inter_H-Y y rattus_norvegicus) en algún momento se les aplicó un algoritmo de
-detección de comunidades de forma directa (fast greedy) implementado en dos versiones distintas: una
++ A las redes (inter_H-Y de 1052 elementos y rattus_norvegicus de 3509 elementos) en algún momento se les aplicó
+un algoritmo de detección de comunidades de forma directa (fast greedy) implementado en dos versiones distintas: una
 implementación en igraph y otra en NetworkX. Ambas arrojaron resultados distintos, detectando 85 comunidades una y
 90 comunidades otra en la red INTER, y dando 154 y 155 comunidades en la red RATTUS.
 
