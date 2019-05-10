@@ -449,3 +449,9 @@ que surgieron tras aplicar un algoritmo de búsqueda de comunidades directamente
 
 -----
       
+NUEVA CARPETA: results-1°FASE TODOS LOS FILES Y RESULTADOS DE APLICAR JACCARD ENTRE LOS CLUSTERS
+MÁS GRANDES (SEGUNDOS MÁS GRANDES TAMBIÉN) ENTRE DIMENSIONES CONSECUTIVAS. Y JACCARD ENTRE LOS
+CLUSTERS MÁS GRANDES (SEGUNDOS MÁS GRANDES TAMBIÉN) DE CADA DIMENSIÓN CON EL CLUSTER MÁS GRANDE (SEGUNDO MÁS
+GRANDE TAMBIÉN). (En este último se usaron dos versiones resultado de aplicar fast greedy implementado
+en igraph y networkx).
+-----
