@@ -14,4 +14,4 @@ En la red rattus: J = 0.97
 
 + Se calculó el índice de Jaccard entre los clusters SEGUNDOS MÁS grandes de NetworkX y igraph:
 En la red inter_H-Y: J = 0.05
-En la red rattus: J = 
+En la red rattus: J = 0.00
