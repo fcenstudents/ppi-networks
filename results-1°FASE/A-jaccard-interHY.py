@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #load file A-interHY-biggest-clusters-xdim.txt
-#calculate jaccard index entre biggest clusters de dimensiones consecutivas
+#calculate jaccard index entre biggest clusters de dimensiones consecutivas 
 
 import numpy as np
 import sys
