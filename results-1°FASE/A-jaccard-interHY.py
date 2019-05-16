@@ -46,6 +46,7 @@ fig = plt.figure(figsize=(6, 12)) #ANCHO/LARGO
 
 plt.subplot(311)
 plt.scatter(x=np.array(xl), y=np.array(jaccards), marker='o', color='red', s=100)
+plt.ylim(0, 1)
 for i in range(len(jaccards)):
 	plt.annotate(round(jaccards[i], 3), (xl[i], jaccards[i]+0.005))
 plt.xlabel("d_{i,max}/d_{i+1,max}")
@@ -63,6 +64,7 @@ for j in range(len(lst)-2):
 
 plt.subplot(312)
 plt.scatter(x=np.array(xll), y=np.array(jac_nx), marker='o', color='blue', s=100)
+plt.ylim(0, 1)
 for i in range(len(jac_nx)):
 	plt.annotate(round(jac_nx[i], 3), (xll[i], jac_nx[i]+0.005))
 plt.xlabel("d_{i, max}/nx_{max}")
@@ -77,6 +79,7 @@ for j in range(len(lst)-2):
 
 plt.subplot(313)
 plt.scatter(x=np.array(xll), y=np.array(jac_i), marker='o', color='green', s=100)
+plt.ylim(0, 1)
 for i in range(len(jac_i)):
 	plt.annotate(round(jac_i[i], 3), (xll[i], jac_i[i]+0.005))
 plt.xlabel("d_{i, max}/igraph_{max}")
