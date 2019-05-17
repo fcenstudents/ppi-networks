@@ -15,7 +15,7 @@ def jaccard_similarity(x, y):
 
 ### RED INTER HY
 ### De 90 clusters obtenidos por community detection (igraph) me quedé con 15 clsuters con más de #20 nodos
-### De 85 clusters obtenidos por community detection (igraph) me quedé con 15 clsuters con más de #20 nodos
+### De 85 clusters obtenidos por community detection (NX) me quedé con 15 clsuters con más de #20 nodos
 
 # defino labels de cluster de community detection igraph
 cd_labels_i = []
